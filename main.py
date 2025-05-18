@@ -22,3 +22,10 @@ def read_tea():
 @app.post("/teas")
 def add_tea(tea: Tea):
     teas.append(tea)
+
+@app.put("/teas/{tea_id}")
+def update_tea(tea_id: int, updated_tea: Tea):
+    if tea.id == tea_id:
+        teas[index] = update_tea
+        return update_tea
+    return{"error": "Tea not found"}
