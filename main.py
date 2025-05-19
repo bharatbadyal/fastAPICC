@@ -29,3 +29,7 @@ def update_tea(tea_id: int, updated_tea: Tea):
         teas[index] = update_tea
         return update_tea
     return{"error": "Tea not found"}
+
+@app.put("/about")
+def about():
+    return "This is the crash course content from ChaiAurCode Channels FastAPI course materials"
