@@ -33,3 +33,7 @@ def update_tea(tea_id: int, updated_tea: Tea):
 @app.put("/about")
 def about():
     return "This is the crash course content from ChaiAurCode Channels FastAPI course materials"
+
+@app.put("/demo")
+def demo_fun():
+    return "This is the demo page just to create multile handlers"
