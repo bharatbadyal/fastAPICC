@@ -37,3 +37,7 @@ def about():
 @app.put("/demo")
 def demo_fun():
     return "This is the demo page just to create multile handlers"
+
+@app.put("/random")
+def demo_fun():
+    return "Just a random handler"
