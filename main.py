@@ -41,3 +41,7 @@ def demo_fun():
 @app.put("/random")
 def demo_fun():
     return "Just a random handler"
+
+@app.put("/place")
+def place_fun():
+    return "Just a random placeHolder"
