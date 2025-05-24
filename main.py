@@ -49,3 +49,7 @@ def place_fun():
 @app.put("/place")
 def place_fun():
     return "Just a random placeHolder"
+
+@app.put("/place")
+def place_fun():
+    return "Just a random placeHolder"
